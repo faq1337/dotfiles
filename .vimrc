@@ -27,7 +27,7 @@ set backspace=indent,eol,start
 " else
 "   set backup		" keep a backup file (restore to previous version)
 "   set undofile		" keep an undo file (undo changes after closing)
-endif
+" endif
 set history=50		" keep 50 lines of command line history
 set ruler		" show the cursor position all the time
 set showcmd		" display incomplete commands
