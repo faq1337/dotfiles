@@ -122,3 +122,7 @@ set background=dark
 " let g:ycm_min_num_of_chars_for_completion = 99
 " let g:ycm_semantic_triggers = { 'c' : ['('], 'cpp' : ['('] }
 " let g:ycm_extra_conf_globlist = 0
+
+" activates pylint check on :make
+ set makeprg=pylint\ --reports=n\ --output-format=parseable\ %:p
+ set errorformat=%f:%l:\ %m
